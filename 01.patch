@@ -1,0 +1,11 @@
+--- vorton/src/error.c.ORIGINAL   2016-03-30 22:47:56.383183865 +0000
++++ vorton/src/error.c   2016-03-30 22:46:17.984339686 +0000
+@@ -4,7 +4,9 @@
+ 
+ static SDL_Surface *font_surface;
+ 
++#if 0
+ static SFont_FontInfo font;
++#endif
+ 
+ #define putstring(X,Y,Str) (SFont_PutStringInfo(screen,&font,X,Y,Str))

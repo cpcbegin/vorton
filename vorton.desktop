@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Vorton
+Comment=Highway encounter remake
+Comment[es_ES]=Remake de Highway encounter
+Exec=/opt/linuxgames/vorton/vorton
+Path=/opt/linuxgames/vorton/
+Icon=/opt/linuxgames/vorton/vortonicon.png
+Terminal=false
+Type=Application
+Categories=Game;ArcadeGame;
